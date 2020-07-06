@@ -15,9 +15,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       
-      
    
     - name: Init
+      
       run: |
         chmod -R 777 ./IBM_Cloud_CLI/
     - name: Login IBM Cloud
